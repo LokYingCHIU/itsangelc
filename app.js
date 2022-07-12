@@ -9,7 +9,7 @@ function PageTransitions(){
         sectBtn[i].addEventListener('click', function(){
             let currentBtn = document.querySelectorAll('.active-btn');
             currentBtn[0].className = currentBtn[0].className.replace('active-btn', '');
-            this.className += ' active-btn'; // the space int the beginning of the new class name is important!!
+            this.classList.add('active-btn'); // the space int the beginning of the new class name is important!!
         })
     }
 
@@ -18,10 +18,10 @@ function PageTransitions(){
         const id = e.target.dataset.id;
         if (id){
             //remove selected from the other button
-            sectBtns.forEach((btn) =>{
-                btn.classList.remove('active');
-            })
-            e.target.classList.add('active');
+            //sectBtns.forEach((btn) =>{
+            //    btn.classList.remove('active');
+            //})
+            //e.target.classList.add('active');
 
             //hide other sections
             sections.forEach((section)=>{
@@ -36,8 +36,7 @@ function PageTransitions(){
     //Togle theme
     const themeBtn = document.querySelector('.theme-btn');
     themeBtn.addEventListener('click', ()=>{
-        let element = document.body;
-        element.classList.toggle('light-mode');
+        document.body.classList.toggle('light-mode');
     })
 }
 
