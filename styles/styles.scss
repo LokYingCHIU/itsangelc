@@ -25,9 +25,7 @@
 }
 
 .dark-mode{
-    //--color-primary: #191d2b;
     --color-primary: #191414;
-    //--color-secondary: #27AE60;
     --color-secondary: #1db954;
     --color-white: #ffffff;
     --color-black: #000;
@@ -53,7 +51,7 @@ body{
 a{
     display: inline-block;
     text-decoration: none;
-    color: inherit; /*inherit the color from the body*/
+    color: inherit;
     font-family: inherit;
 }
 
@@ -133,8 +131,6 @@ section{
     .active-btn{
         background-color: var(--color-secondary) !important;
         transition: all .4s ease-in-out;
-        //width: 65px !important;
-        //height: 65px !important;
         i{
             color: var(--color-white) !important;
         }
