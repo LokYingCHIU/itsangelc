@@ -79,7 +79,6 @@ section {
 .sec1 { /*when this section is active, it's going to go to the default setting (.section)*/
   display: none;
   transform: translateY(0) scale(1);
-  padding: 3rem 12rem;
 }
 
 .sec2 {
@@ -734,6 +733,9 @@ section {
   }
   .right-header .name {
     font-size: 1.5rem !important;
+  }
+  .right-header .btns {
+    display: block;
   }
   .header-content .left-header .image {
     margin: 0 auto;
