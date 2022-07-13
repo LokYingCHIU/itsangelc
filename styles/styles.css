@@ -79,6 +79,7 @@ section {
 .sec1 { /*when this section is active, it's going to go to the default setting (.section)*/
   display: none;
   transform: translateY(0) scale(1);
+  padding: 3rem 12rem;
 }
 
 .sec2 {
@@ -96,6 +97,7 @@ section {
 .sec4 {
   display: none;
   transform: translateY(0) scale(1);
+  padding: 3rem 12rem;
 }
 
 .sec5 {
@@ -763,6 +765,9 @@ section {
     padding-bottom: 6rem;
     padding-left: 3rem;
   }
+  .timeline .timeline-item {
+    padding: 10% 10%;
+  }
   .about-stats .lang-skills {
     grid-template-columns: 1fr;
   }
@@ -772,6 +777,9 @@ section {
   }
   .contact-content-con {
     flex-direction: column;
+  }
+  .contact-content-con .icon p {
+    display: none;
   }
   .contact-content-con .right-contact {
     margin-left: 0;

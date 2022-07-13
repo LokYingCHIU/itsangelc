@@ -79,6 +79,7 @@ section{
 .sec1{/*when this section is active, it's going to go to the default setting (.section)*/
     display: none;
     transform: translateY(0) scale(1);
+    padding: 3rem 12rem;
 }
 
 .sec2{
@@ -96,6 +97,7 @@ section{
 .sec4{
     display: none;
     transform: translateY(0) scale(1);
+    padding: 3rem 12rem;
 }
 
 .sec5{
