@@ -10,10 +10,10 @@
 /*variables, mainly for colors*/
 :root {
   --color-primary: #ffffff;
-  --color-secondary: #96b5f3;
-  --color-white: #454e56;
+  --color-secondary: #00C9FF;
+  --color-white: #424242;
   --color-black: #f8f8f8;
-  --color-grey0: #12181b;
+  --color-grey0: #232323;
   --color-grey1: #6c7983;
   --color-grey2: #6c7983;
   --color-grey3: #6c7983;
@@ -25,10 +25,10 @@
 }
 
 .dark-mode {
-  --color-primary: #191414;
-  --color-secondary: #1db954;
-  --color-white: #ffffff;
-  --color-black: #000;
+  --color-primary: #30415F;
+  --color-secondary: #0A84FF;
+  --color-white: #f8f8f8;
+  --color-black: #2C2C2E;
   --color-grey0: #f8f8f8;
   --color-grey1: #dbe1e8;
   --color-grey2: #b2becd;
@@ -107,16 +107,7 @@ section {
 
 .active {
   display: block;
-  -webkit-animation: appear 1s ease-in-out;
-          animation: appear 1s ease-in-out;
-}
-@-webkit-keyframes appear {
-  0% {
-    transform: translateY(-100%) scaleY(0);
-  }
-  100% {
-    transform: translateY(0) scaleY(1);
-  }
+  animation: appear 1s ease-in-out;
 }
 @keyframes appear {
   0% {
@@ -225,7 +216,8 @@ section {
   -o-object-fit: cover;
      object-fit: cover;
   transition: all 0.4s ease-in-out;
-  filter: grayscale(50%);
+  border-radius: 10px;
+  filter: grayscale(10%);
 }
 .header-content .left-header .image img:hover {
   filter: grayscale(0);
@@ -406,7 +398,7 @@ section {
   width: 80%;
 }
 .about-stats .lang-skills .l-skill-item .progress-con .progress .canto {
-  width: 60%;
+  width: 80%;
 }
 .about-stats .lang-skills .l-skill-item .progress-con .progress .krn {
   width: 20%;

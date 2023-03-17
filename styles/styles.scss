@@ -10,10 +10,10 @@
 /*variables, mainly for colors*/
 :root{
     --color-primary: #ffffff;
-    --color-secondary: #96b5f3;
-    --color-white: #454e56;
+    --color-secondary: #00C9FF;
+    --color-white: #424242;
     --color-black: #f8f8f8;
-    --color-grey0: #12181b;
+    --color-grey0: #232323;
     --color-grey1: #6c7983;
     --color-grey2: #6c7983;
     --color-grey3: #6c7983;
@@ -25,10 +25,10 @@
 }
 
 .dark-mode{
-    --color-primary: #191414;
-    --color-secondary: #1db954;
-    --color-white: #ffffff;
-    --color-black: #000;
+    --color-primary: #30415F;
+    --color-secondary: #0A84FF;
+    --color-white: #f8f8f8;
+    --color-black: #2C2C2E;
     --color-grey0: #f8f8f8;
     --color-grey1: #dbe1e8;
     --color-grey2: #b2becd;
@@ -214,7 +214,8 @@ section{
                 height: 100%;
                 object-fit: cover;
                 transition: all .4s ease-in-out;
-                filter: grayscale(50%);
+                border-radius: 10px;
+                filter: grayscale(10%);
                 &:hover{
                     filter: grayscale(0);
                 }
@@ -397,7 +398,7 @@ section{
                         width: 80%;
                     }
                     .canto{
-                        width: 60%;
+                        width: 80%;
                     }
                     .krn{
                         width: 20%;
