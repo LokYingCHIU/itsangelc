@@ -309,6 +309,9 @@ section {
 .timeline .timeline-item h6 i {
   font-size: larger;
 }
+.timeline .timeline-item .tl-detail {
+  font-size: smaller;
+}
 
 .about-stats {
   padding-bottom: 4rem;
